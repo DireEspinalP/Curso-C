@@ -11,6 +11,8 @@
         -case: representa un valor posible de la variable
         -break: sale del switch después de que se ejecuta un caso (evita el "fall-through")
         -default: caso opcional ejecutado si ningún otro caso coincide
+    5) operador condicional: El operador condicional es una declaración if-else de una sola línea con la sintaxis
+        variable = (condition) ? value_if_true : value_if_false;
 */
 #include <iostream>
 #include <string>
@@ -45,5 +47,9 @@ int main() {
         case 2: cout << "Dos"; break;
         default: cout << "Otro";
     }
+
+    cout<<"\nUsando Operador condiconal"<<endl;
+    int score = 100;
+    string result = (score == 100) ? "Perfect!" : (score >= 90) ? "Excellent" : "Good";
     return 0;
 }
