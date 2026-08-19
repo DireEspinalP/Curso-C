@@ -1,9 +1,9 @@
 #include <cstring>   // cadenas estilo C  (char[] / char*)
 #include <string>    // clase std::string (C++)
 
-// ==========================================================================
-//                     LIBRERIA <cstring>  (char[] / char*)
-// ==========================================================================
+// 
+//--------------------- LIBRERIA <cstring>  (char[] / char*)---------------------
+// 
 
 // ---- LONGITUD ----
 strlen(texto);                          // longitud de la cadena (sin contar '\0')
@@ -49,9 +49,9 @@ puntero + n;  puntero - n;              // + / - -> desplazamiento de punteros
 //       Para comparar o concatenar contenido hay que usar strcmp() / strcat().
 
 
-// ==========================================================================
-//                     LIBRERIA <string>  (std::string)
-// ==========================================================================
+// 
+//--------------------- LIBRERIA <string>  (std::string)---------------------
+// 
 
 // ---- OPERADORES ----
 cadena1 + cadena2;                       // +   -> concatena dos strings (o string y char*)
