@@ -1,5 +1,17 @@
 /*--------------------VECTORES--------------------
+Has estado trabajando con arreglos tradicionales de estilo C, 
+los cuales tienen un tamaño fijo que debe determinarse al escribir el código. 
+Pero, ¿qué pasa si necesitas una colección que pueda crecer o reducirse mientras 
+tu programa se está ejecutando? Aquí es donde std::vector de la Biblioteca de 
+Plantillas Estándar (STL) se vuelve invaluable.
 
+Un vector es esencialmente un array dinámico: puede redimensionarse automáticamente 
+a medida que agregas o eliminas elementos. A diferencia de los arrays regulares, 
+donde debes especificar el tamaño de antemano, los vectores gestionan la memoria por ti, 
+expandiéndose automáticamente cuando necesitas más espacio (eliminar elementos reduce el 
+tamaño, aunque el vector no libera automáticamente la memoria subyacente).
+
+##  Fundamentos ##
 Liberia: <vector>
 Crear: std::vector<type> name_vect;
 Insertar elementos: name_vect.pushback(value);
